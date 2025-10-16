@@ -9,7 +9,7 @@ Description of files/folders:
 Note that all analysis code for the above three samples are approximately equivalent for other samples. The only differences were the cropping dimensions. As Github does not accommodate large files, these files have been omitted to save space. If more information is required, do contact the author at k.tumanova@mail.utoronto.ca. 
   
 - MM_full_stats_forsubmission.xlsx: Mean, median, standard deviation, skew and kurtosis values for all tested parameters, for all samples, computed in Python using analysis methods in the above three files.
-- registration_daniel: Contains relevant code and another README.txt file for co-registeration of raw images to correct artefacts caused by off-axis rays. Code was written by Daniel C. Louie. 
+- registration_daniel: Contains relevant code for co-registeration of raw images to correct artefacts caused by off-axis rays. Refer to the other README.txt file in this folder for more information. Code was written by Daniel C. Louie. 
 
 
 DOI: 10.5281/zenodo.17370799
