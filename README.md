@@ -1,7 +1,7 @@
 # EDS_MMP
 Full code and data repository for "Label-free differentiation of classical and hypermobile Ehlers-Danlos syndromes using Mueller matrix polarimetry" (2025) by Tumanova et al. This is for submission to Biophotonics Discovery. 
 
-Relevant files:
+Description of files/folders:
 - P12.ipynb: MMP analysis code and additional image processing for representative healthy skin biopsy sample used in Figures 2-3. Code was written by Kseniia Tumanova and Eric Min. 
 - P15.ipynb: MMP analysis code and additional image processing for representative cEDS skin biopsy sample used in Figures 2-4. Code was written by Kseniia Tumanova and Eric Min. 
 - P10.ipynb: MMP analysis code and additional image processing for representative hEDS skin biopsy sample used in Figures 2-4. Code was written by Kseniia Tumanova and Eric Min.
