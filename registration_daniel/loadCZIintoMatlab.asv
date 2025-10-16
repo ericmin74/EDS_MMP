@@ -1,0 +1,46 @@
+% This script will take all the polarimetry CZIs in a folder and put them
+% into matlab entities
+
+location = 'C:\Users\dloui\OneDrive\Desktop\Aug 8\S04-14323 3K\ROI 1';
+
+list = dir(fullfile(location, '*.czi'));
+numFiles = length(list);
+
+% for i = 1:numFiles
+% 
+%     name = list(i).name;
+%     varName = name(1:2);
+%     image = showCZI([location '\' name]);
+% 
+%     summary(i).name = varName;
+%     summary(i).image = image;
+% 
+% end
+
+summary.HB = showCZI([location '\HB.czi']);
+summary.HH = showCZI([location '\HH.czi']);
+summary.HL = showCZI([location '\HL.czi']);
+summary.HP = showCZI([location '\HP.czi']);
+summary.HR = showCZI([location '\HR.czi']);
+summary.HV = showCZI([location '\HV.czi']);
+
+summary.PB = showCZI([location '\PB.czi']);
+summary.PH = showCZI([location '\PH.czi']);
+summary.PL = showCZI([location '\PL.czi']);
+summary.PP = showCZI([location '\PP.czi']);
+summary.PR = showCZI([location '\PR.czi']);
+summary.PV = showCZI([location '\PV.czi']);
+
+summary.RB = showCZI([location '\RB.czi']);
+summary.RH = showCZI([location '\RH.czi']);
+summary.RL = showCZI([location '\RL.czi']);
+summary.RP = showCZI([location '\RP.czi']);
+summary.RR = showCZI([location '\RR.czi']);
+summary.RV = showCZI([location '\RV.czi']);
+
+summary.VB = showCZI([location '\VB.czi']);
+summary.VH = showCZI([location '\VH.czi']);
+summary.VL = showCZI([location '\VL.czi']);
+summary.VP = showCZI([location '\VP.czi']);
+summary.VR = showCZI([location '\VR.czi']);
+summary.VV = showCZI([location '\VV.czi']);
